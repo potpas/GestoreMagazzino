@@ -118,9 +118,9 @@ public class Prodotto {
 		this.prezzo = prezzo;
 	}
 
-
+   
 
 	public void stampa() {
-		System.out.println( "Prodotto: " + codice + "," + tipo + "," + marca + "," + modello + "," + annoDiProduzione + "," + prezzo );
+		System.out.println( "Prodotto: " + codice + "," + tipo + "," + marca + "," + modello + "," + annoDiProduzione + "," + prezzo + "." );
 	}       
 }
