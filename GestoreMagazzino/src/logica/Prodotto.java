@@ -9,6 +9,22 @@ public class Prodotto {
     private int annoDiProduzione;
     private double prezzo;
     
+    
+    public Prodotto() {
+    	
+    }
+
+	public Prodotto(String codice, String tipo, String marca, String modello, int annoDiProduzione, double prezzo) {
+		super();
+		this.codice = codice;
+		this.tipo = tipo;
+		this.marca = marca;
+		this.modello = modello;
+		this.annoDiProduzione = annoDiProduzione;
+		this.prezzo = prezzo;
+	}
+
+
 
 	@Override
 	public boolean equals(Object obj) {
